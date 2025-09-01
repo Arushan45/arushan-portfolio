@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Mail } from "lucide-react";
-import profileImage from "@/assets/arushan-profile.jpg";
+const profileImageUrl = "/lovable-uploads/6fd3dfb0-72fb-4b68-85eb-3fa04bdeb8b7.png";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -76,7 +76,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full blur-xl opacity-30 animate-glow"></div>
               <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/20 animate-float">
                 <img
-                  src={profileImage}
+                  src={profileImageUrl}
                   alt="Arushan Ravikaran - Chemical Engineering Student"
                   className="w-full h-full object-cover"
                 />
