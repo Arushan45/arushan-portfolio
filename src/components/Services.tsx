@@ -132,13 +132,6 @@ const Services = () => {
                           </li>
                         ))}
                       </ul>
-
-                      {/* CTA Button */}
-                      <Button 
-                        className={`${colors.button} w-full font-medium transition-all duration-300 hover:shadow-lg`}
-                      >
-                        Get Started
-                      </Button>
                     </div>
                   </CardContent>
                 </Card>
