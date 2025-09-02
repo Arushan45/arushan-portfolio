@@ -186,20 +186,6 @@ const Portfolio = () => {
             })}
           </div>
 
-          {/* Call to Action */}
-          <div className="mt-16 text-center animate-fade-in">
-            <Card className="bg-gradient-to-r from-primary/10 to-accent/10 border-primary/20">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold text-foreground mb-4">
-                  Interested in Collaboration?
-                </h3>
-                <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                  I'm always excited to work on challenging engineering projects that push the boundaries 
-                  of innovation and sustainability. Let's discuss how we can work together.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
