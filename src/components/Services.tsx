@@ -89,13 +89,6 @@ const Services = () => {
                       </p>
                     </div>
                   </div>
-                  <Button 
-                    variant="outline"
-                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  >
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    View Profile
-                  </Button>
                 </div>
               </CardContent>
             </Card>
@@ -168,7 +161,7 @@ const Services = () => {
               <div className="text-sm text-muted-foreground">International Clients</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold hero-gradient mb-2">5★</div>
+              <div className="text-3xl font-bold hero-gradient mb-2">4.8★</div>
               <div className="text-sm text-muted-foreground">Client Satisfaction</div>
             </div>
           </div>

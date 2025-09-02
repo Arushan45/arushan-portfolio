@@ -197,11 +197,6 @@ const Portfolio = () => {
                   I'm always excited to work on challenging engineering projects that push the boundaries 
                   of innovation and sustainability. Let's discuss how we can work together.
                 </p>
-                <Button 
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 font-medium"
-                >
-                  Start a Project
-                </Button>
               </CardContent>
             </Card>
           </div>
