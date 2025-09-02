@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -74,16 +75,19 @@ const Navigation = () => {
             </div>
           </div>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-foreground"
-            >
-              {isOpen ? <X size={20} /> : <Menu size={20} />}
-            </Button>
+          {/* Theme Toggle and Mobile menu button */}
+          <div className="flex items-center space-x-2">
+            <ThemeToggle />
+            <div className="md:hidden">
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setIsOpen(!isOpen)}
+                className="text-foreground"
+              >
+                {isOpen ? <X size={20} /> : <Menu size={20} />}
+              </Button>
+            </div>
           </div>
         </div>
       </div>
