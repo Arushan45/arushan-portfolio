@@ -51,7 +51,7 @@ const Navigation = () => {
               onClick={() => scrollToSection('home')}
               className="text-xl font-bold hero-gradient"
             >
-              AR
+              ARUSHAN
             </button>
           </div>
 
