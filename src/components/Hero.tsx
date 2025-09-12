@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Mail } from "lucide-react";
-const profileImageUrl = "/lovable-uploads/6fd3dfb0-72fb-4b68-85eb-3fa04bdeb8b7.png";
+const profileImageUrl = "./lovable-uploads/6fd3dfb0-72fb-4b68-85eb-3fa04bdeb8b7.png";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
